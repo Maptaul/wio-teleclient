@@ -1,0 +1,232 @@
+@import "../../styles/_var.scss";
+
+.footer {
+    padding-top: 80px;
+    color: #fff;
+    background-color: #000;
+
+    // Container styles for centering and padding
+    .container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 1rem;
+
+        @media (max-width: $lg) {
+            padding: 0 0.75rem;
+        }
+
+        @media (max-width: $sm) {
+            padding: 0 0.5rem;
+        }
+    }
+
+    @media (max-width: $sm) {
+        padding-top: 50px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        gap: 40px;
+
+        @media (max-width: $md) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: $sm) {
+            gap: 25px;
+            grid-template-columns: 1fr;
+        }
+
+        h3 {
+            font-size: 22px;
+            margin-bottom: 26px;
+            color: $primary;
+
+            @media (max-width: $xxl) {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+        }
+
+        h4 {
+            font-size: 18px;
+            margin-bottom: 20px;
+
+            @media (max-width: $xxl) {
+                font-size: 16px;
+            }
+        }
+
+        .inner_wrapper {
+            width: 100%;
+            max-width: 400px;
+
+            @media (max-width: $xl) {
+                max-width: 100%;
+            }
+
+            .logo {
+                display: block;
+                text-align: left;
+                margin-bottom: 20px;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    max-width: 200px;
+                }
+            }
+
+            .location {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+
+        .footer_menu {
+            @media (max-width: $md) {
+                width: 100%;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    padding: 10px 0;
+
+                    @media (max-width: $xxl) {
+                        padding: 6px 0;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 500;
+
+                        @media (max-width: $xxl) {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .active {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+
+        .connect {
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 24px;
+                }
+            }
+
+            .download {
+                display: flex;
+                gap: 8px;
+
+                img {
+                    width: 100px;
+                    height: 40px;
+                    object-fit: contain;
+                    border-radius: 12px;
+                    border: 1px solid #4e4e4e;
+                }
+            }
+        }
+    }
+
+    .footer_bootom {
+        padding-top: 50px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px solid grey;
+
+        @media (max-width: $md) {
+            flex-direction: column;
+        }
+
+
+        .copyright {
+            font-size: 18px;
+            font-weight: 600;
+
+            @media (max-width: $md) {
+                font-size: 16px;
+                text-align: center;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .powerdby {
+                width: 100px;
+                object-fit: contain;
+                padding-left: 5px;
+            }
+        }
+
+
+
+        .policy {
+            display: flex;
+            gap: 20px;
+
+            @media (max-width: $md) {
+                justify-content: center;
+            }
+
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+
+                @media (max-width: $xxl) {
+                    font-size: 18px;
+                }
+
+                @media (max-width: $md) {
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .copy {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 0;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}

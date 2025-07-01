@@ -1,0 +1,65 @@
+@use "/src/styles/var" as *;
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import '~bootstrap/scss/bootstrap';
+
+html {
+  direction: ltr;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $font_one;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: $primary;
+  border-radius: 10px;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+
+  @media (max-width:$md) {
+    font-size: 32px;
+  }
+
+  @media (max-width:$sm) {
+    font-size: 26px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font_one;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}

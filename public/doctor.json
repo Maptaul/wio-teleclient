@@ -1,0 +1,748 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Mahmoud Mansy",
+    "title": "Psychiatrist",
+    "education": {
+      "degree": "MD in Psychiatry",
+      "university": "Cairo University",
+      "graduationYear": 2010
+    },
+    "experience": 13,
+    "numSessions": 10,
+    "availableSlots": {
+      "nextAvailable": "2025-06-20T09:00:00+02:00",
+      "weeklySchedule": {
+        "monday": [
+          "09:00-15:00"
+        ],
+        "wednesday": [
+          "14:00-20:00"
+        ],
+        "friday": [
+          "10:00-16:00"
+        ]
+      }
+    },
+    "rating": 4.5,
+    "fees": {
+      "60min": 150,
+      "30min": 100
+    },
+    "numReviews": 50,
+    "specializations": {
+      "primary": "Mental Health",
+      "subspecialties": [
+        "Depression",
+        "Anxiety Disorders",
+        "PTSD"
+      ],
+      "conditions": [
+        "Depression",
+        "Anxiety",
+        "Stress",
+        "Relationships"
+      ]
+    },
+    "certifications": [
+      "American Board of Psychiatry",
+      "Egyptian Fellowship of Psychiatry"
+    ],
+    "gender": "Male",
+    "location": {
+      "country": "Egypt",
+      "city": "Cairo",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-mansy.jpg",
+    "about": "Dr. Mansy is a leading psychiatrist with over 13 years of experience in treating mental health conditions. He specializes in cognitive behavioral therapy and modern psychiatric treatments."
+  },
+  {
+    "id": "2",
+    "name": "Dr. Ahmed El-Sayed",
+    "title": "Cardiologist",
+    "education": {
+      "degree": "MD in Cardiology",
+      "university": "Ain Shams University",
+      "graduationYear": 2008
+    },
+    "experience": 15,
+    "numSessions": 15,
+    "availableSlots": {
+      "nextAvailable": "2025-06-18T10:00:00+02:00",
+      "weeklySchedule": {
+        "tuesday": [
+          "09:00-17:00"
+        ],
+        "thursday": [
+          "10:00-18:00"
+        ],
+        "saturday": [
+          "09:00-13:00"
+        ]
+      }
+    },
+    "rating": 4.7,
+    "fees": {
+      "60min": 200,
+      "30min": 120
+    },
+    "numReviews": 60,
+    "specializations": {
+      "primary": "Cardiology",
+      "subspecialties": [
+        "Interventional Cardiology",
+        "Cardiac Imaging"
+      ],
+      "conditions": [
+        "Heart Disease",
+        "Hypertension",
+        "Cholesterol",
+        "Arrhythmia"
+      ]
+    },
+    "certifications": [
+      "American Board of Cardiology",
+      "European Society of Cardiology Member"
+    ],
+    "gender": "Male",
+    "location": {
+      "country": "Egypt",
+      "city": "Alexandria",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": false,
+    "imageUrl": "/images/doctors/dr-elsayed.jpg",
+    "about": "Dr. El-Sayed is a renowned cardiologist with extensive experience in treating complex cardiac conditions. He specializes in preventive cardiology and heart disease management."
+  },
+  {
+    "id": "3",
+    "name": "Dr. Mona Hassan",
+    "title": "Dermatologist",
+    "education": {
+      "degree": "MD in Dermatology",
+      "university": "Alexandria University",
+      "graduationYear": 2012
+    },
+    "experience": 11,
+    "numSessions": 20,
+    "availableSlots": {
+      "nextAvailable": "2025-06-19T11:00:00+02:00",
+      "weeklySchedule": {
+        "sunday": [
+          "10:00-16:00"
+        ],
+        "tuesday": [
+          "13:00-19:00"
+        ],
+        "thursday": [
+          "09:00-15:00"
+        ]
+      }
+    },
+    "rating": 4.8,
+    "fees": {
+      "60min": 180,
+      "30min": 110
+    },
+    "numReviews": 70,
+    "specializations": {
+      "primary": "Dermatology",
+      "subspecialties": [
+        "Cosmetic Dermatology",
+        "Pediatric Dermatology"
+      ],
+      "conditions": [
+        "Acne",
+        "Eczema",
+        "Psoriasis",
+        "Skin Cancer"
+      ]
+    },
+    "certifications": [
+      "American Board of Dermatology",
+      "European Academy of Dermatology Member"
+    ],
+    "gender": "Female",
+    "location": {
+      "country": "Egypt",
+      "city": "Cairo",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-hassan.jpg",
+    "about": "Dr. Hassan is a skilled dermatologist specializing in both medical and cosmetic dermatology. She has particular expertise in treating complex skin conditions and performing advanced skin procedures."
+  },
+  {
+    "id": "4",
+    "name": "Dr. Sara Ali",
+    "title": "Pediatrician",
+    "education": {
+      "degree": "MD in Pediatrics",
+      "university": "Cairo University",
+      "graduationYear": 2009
+    },
+    "experience": 14,
+    "numSessions": 25,
+    "availableSlots": {
+      "nextAvailable": "2025-06-17T09:00:00+02:00",
+      "weeklySchedule": {
+        "monday": [
+          "09:00-17:00"
+        ],
+        "wednesday": [
+          "09:00-17:00"
+        ],
+        "friday": [
+          "09:00-13:00"
+        ]
+      }
+    },
+    "rating": 4.9,
+    "fees": {
+      "60min": 160,
+      "30min": 90
+    },
+    "numReviews": 80,
+    "specializations": {
+      "primary": "Pediatrics",
+      "subspecialties": [
+        "Pediatric Development",
+        "Pediatric Nutrition"
+      ],
+      "conditions": [
+        "Child Development",
+        "Vaccinations",
+        "Nutrition",
+        "Asthma"
+      ]
+    },
+    "certifications": [
+      "American Board of Pediatrics",
+      "Egyptian Pediatric Association Member"
+    ],
+    "gender": "Female",
+    "location": {
+      "country": "Egypt",
+      "city": "Giza",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": false,
+    "imageUrl": "/images/doctors/dr-ali.jpg",
+    "about": "Dr. Ali is a compassionate pediatrician with over 14 years of experience in child healthcare. She specializes in child development and preventive care."
+  },
+  {
+    "id": "5",
+    "name": "Dr. Khaled Youssef",
+    "title": "Neurologist",
+    "education": {
+      "degree": "MD in Neurology",
+      "university": "Ain Shams University",
+      "graduationYear": 2011
+    },
+    "experience": 12,
+    "numSessions": 18,
+    "availableSlots": {
+      "nextAvailable": "2025-06-21T10:00:00+02:00",
+      "weeklySchedule": {
+        "sunday": [
+          "10:00-18:00"
+        ],
+        "wednesday": [
+          "09:00-17:00"
+        ],
+        "thursday": [
+          "13:00-19:00"
+        ]
+      }
+    },
+    "rating": 4.6,
+    "fees": {
+      "60min": 220,
+      "30min": 130
+    },
+    "numReviews": 55,
+    "specializations": {
+      "primary": "Neurology",
+      "subspecialties": [
+        "Movement Disorders",
+        "Headache Medicine"
+      ],
+      "conditions": [
+        "Epilepsy",
+        "Stroke",
+        "Migraine",
+        "Multiple Sclerosis"
+      ]
+    },
+    "certifications": [
+      "American Board of Neurology",
+      "European Academy of Neurology Member"
+    ],
+    "gender": "Male",
+    "location": {
+      "country": "Egypt",
+      "city": "Cairo",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-youssef.jpg",
+    "about": "Dr. Youssef is a distinguished neurologist focusing on complex neurological disorders. He brings extensive experience in treating various neurological conditions using modern therapeutic approaches."
+  },
+  {
+    "id": "6",
+    "name": "Dr. Nadia Hassan",
+    "title": "Dermatologist",
+    "education": {
+      "degree": "MD in Dermatology",
+      "university": "Alexandria University",
+      "graduationYear": 2014
+    },
+    "experience": 9,
+    "numSessions": 25,
+    "availableSlots": {
+      "nextAvailable": "2025-06-22T11:00:00+02:00",
+      "weeklySchedule": {
+        "tuesday": [
+          "11:00-17:00"
+        ],
+        "thursday": [
+          "09:00-15:00"
+        ],
+        "saturday": [
+          "10:00-14:00"
+        ]
+      }
+    },
+    "rating": 4.7,
+    "fees": {
+      "60min": 180,
+      "30min": 110
+    },
+    "numReviews": 42,
+    "specializations": {
+      "primary": "Dermatology",
+      "subspecialties": [
+        "Cosmetic Dermatology",
+        "Pediatric Dermatology"
+      ],
+      "conditions": [
+        "Acne",
+        "Eczema",
+        "Psoriasis",
+        "Skin Cancer Screening"
+      ]
+    },
+    "certifications": [
+      "Egyptian Board of Dermatology",
+      "International Society of Dermatology Member"
+    ],
+    "gender": "Female",
+    "location": {
+      "country": "Egypt",
+      "city": "Alexandria",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic",
+      "French"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-hassan.jpg",
+    "about": "Dr. Hassan specializes in comprehensive dermatological care with a focus on both medical and cosmetic treatments. She is passionate about helping patients achieve healthy skin through evidence-based approaches."
+  },
+  {
+    "id": "7",
+    "name": "Dr. Omar Farid",
+    "title": "Orthopedic Surgeon",
+    "education": {
+      "degree": "MD in Orthopedic Surgery",
+      "university": "Cairo University",
+      "graduationYear": 2008
+    },
+    "experience": 15,
+    "numSessions": 12,
+    "availableSlots": {
+      "nextAvailable": "2025-06-23T08:00:00+02:00",
+      "weeklySchedule": {
+        "monday": [
+          "08:00-14:00"
+        ],
+        "wednesday": [
+          "15:00-19:00"
+        ],
+        "friday": [
+          "09:00-13:00"
+        ]
+      }
+    },
+    "rating": 4.8,
+    "fees": {
+      "60min": 250,
+      "30min": 150
+    },
+    "numReviews": 68,
+    "specializations": {
+      "primary": "Orthopedics",
+      "subspecialties": [
+        "Sports Medicine",
+        "Joint Replacement"
+      ],
+      "conditions": [
+        "Fractures",
+        "Joint Pain",
+        "Sports Injuries",
+        "Arthritis"
+      ]
+    },
+    "certifications": [
+      "American Board of Orthopedic Surgery",
+      "International Association of Orthopedic Surgeons"
+    ],
+    "gender": "Male",
+    "location": {
+      "country": "Egypt",
+      "city": "Cairo",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-farid.jpg",
+    "about": "Dr. Farid is an experienced orthopedic surgeon specializing in sports medicine and joint replacement. He has helped numerous athletes and patients return to their active lifestyles."
+  },
+  {
+    "id": "8",
+    "name": "Dr. Layla Mahmoud",
+    "title": "Gynecologist",
+    "education": {
+      "degree": "MD in Obstetrics and Gynecology",
+      "university": "Ain Shams University",
+      "graduationYear": 2012
+    },
+    "experience": 11,
+    "numSessions": 22,
+    "availableSlots": {
+      "nextAvailable": "2025-06-24T10:00:00+02:00",
+      "weeklySchedule": {
+        "sunday": [
+          "10:00-16:00"
+        ],
+        "tuesday": [
+          "14:00-20:00"
+        ],
+        "thursday": [
+          "09:00-15:00"
+        ]
+      }
+    },
+    "rating": 4.9,
+    "fees": {
+      "60min": 200,
+      "30min": 120
+    },
+    "numReviews": 73,
+    "specializations": {
+      "primary": "Gynecology",
+      "subspecialties": [
+        "Reproductive Health",
+        "Prenatal Care"
+      ],
+      "conditions": [
+        "PCOS",
+        "Endometriosis",
+        "Pregnancy Care",
+        "Menstrual Disorders"
+      ]
+    },
+    "certifications": [
+      "Egyptian Board of Obstetrics and Gynecology",
+      "International Federation of Gynecology and Obstetrics"
+    ],
+    "gender": "Female",
+    "location": {
+      "country": "Egypt",
+      "city": "Cairo",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-mahmoud.jpg",
+    "about": "Dr. Mahmoud is dedicated to providing comprehensive women's healthcare with a compassionate approach. She specializes in reproductive health and prenatal care."
+  },
+  {
+    "id": "9",
+    "name": "Dr. Youssef Ali",
+    "title": "Ophthalmologist",
+    "education": {
+      "degree": "MD in Ophthalmology",
+      "university": "Mansoura University",
+      "graduationYear": 2013
+    },
+    "experience": 10,
+    "numSessions": 16,
+    "availableSlots": {
+      "nextAvailable": "2025-06-25T09:00:00+02:00",
+      "weeklySchedule": {
+        "monday": [
+          "09:00-15:00"
+        ],
+        "wednesday": [
+          "13:00-18:00"
+        ],
+        "saturday": [
+          "10:00-14:00"
+        ]
+      }
+    },
+    "rating": 4.6,
+    "fees": {
+      "60min": 190,
+      "30min": 115
+    },
+    "numReviews": 39,
+    "specializations": {
+      "primary": "Ophthalmology",
+      "subspecialties": [
+        "Retinal Diseases",
+        "Cataract Surgery"
+      ],
+      "conditions": [
+        "Cataracts",
+        "Glaucoma",
+        "Diabetic Retinopathy",
+        "Dry Eyes"
+      ]
+    },
+    "certifications": [
+      "Egyptian Board of Ophthalmology",
+      "American Academy of Ophthalmology Member"
+    ],
+    "gender": "Male",
+    "location": {
+      "country": "Egypt",
+      "city": "Mansoura",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-ali.jpg",
+    "about": "Dr. Ali is a skilled ophthalmologist with expertise in retinal diseases and modern cataract surgery techniques. He is committed to preserving and restoring vision for his patients."
+  },
+  {
+    "id": "10",
+    "name": "Dr. Fatima El-Sayed",
+    "title": "Endocrinologist",
+    "education": {
+      "degree": "MD in Endocrinology",
+      "university": "Cairo University",
+      "graduationYear": 2009
+    },
+    "experience": 14,
+    "numSessions": 20,
+    "availableSlots": {
+      "nextAvailable": "2025-06-26T11:00:00+02:00",
+      "weeklySchedule": {
+        "tuesday": [
+          "11:00-17:00"
+        ],
+        "thursday": [
+          "08:00-14:00"
+        ],
+        "saturday": [
+          "09:00-15:00"
+        ]
+      }
+    },
+    "rating": 4.7,
+    "fees": {
+      "60min": 210,
+      "30min": 125
+    },
+    "numReviews": 56,
+    "specializations": {
+      "primary": "Endocrinology",
+      "subspecialties": [
+        "Diabetes Management",
+        "Thyroid Disorders"
+      ],
+      "conditions": [
+        "Diabetes",
+        "Thyroid Disease",
+        "Obesity",
+        "Hormonal Imbalances"
+      ]
+    },
+    "certifications": [
+      "Egyptian Society of Endocrinology",
+      "International Diabetes Federation Member"
+    ],
+    "gender": "Female",
+    "location": {
+      "country": "Egypt",
+      "city": "Cairo",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-elsayed.jpg",
+    "about": "Dr. El-Sayed specializes in endocrine disorders with particular expertise in diabetes management and thyroid conditions. She focuses on personalized treatment plans for optimal patient outcomes."
+  },
+  {
+    "id": "11",
+    "name": "Dr. Hassan Abdel-Rahman",
+    "title": "Urologist",
+    "education": {
+      "degree": "MD in Urology",
+      "university": "Alexandria University",
+      "graduationYear": 2011
+    },
+    "experience": 12,
+    "numSessions": 14,
+    "availableSlots": {
+      "nextAvailable": "2025-06-27T10:00:00+02:00",
+      "weeklySchedule": {
+        "sunday": [
+          "10:00-16:00"
+        ],
+        "tuesday": [
+          "15:00-19:00"
+        ],
+        "friday": [
+          "09:00-13:00"
+        ]
+      }
+    },
+    "rating": 4.5,
+    "fees": {
+      "60min": 195,
+      "30min": 120
+    },
+    "numReviews": 33,
+    "specializations": {
+      "primary": "Urology",
+      "subspecialties": [
+        "Kidney Stones",
+        "Prostate Disorders"
+      ],
+      "conditions": [
+        "Kidney Stones",
+        "UTI",
+        "Prostate Issues",
+        "Bladder Problems"
+      ]
+    },
+    "certifications": [
+      "Egyptian Board of Urology",
+      "European Association of Urology Member"
+    ],
+    "gender": "Male",
+    "location": {
+      "country": "Egypt",
+      "city": "Alexandria",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-abdelrahman.jpg",
+    "about": "Dr. Abdel-Rahman is a dedicated urologist with extensive experience in treating kidney stones and prostate disorders. He employs minimally invasive techniques whenever possible."
+  },
+  {
+    "id": "12",
+    "name": "Dr. Rana Mostafa",
+    "title": "Rheumatologist",
+    "education": {
+      "degree": "MD in Rheumatology",
+      "university": "Ain Shams University",
+      "graduationYear": 2015
+    },
+    "experience": 8,
+    "numSessions": 19,
+    "availableSlots": {
+      "nextAvailable": "2025-06-28T12:00:00+02:00",
+      "weeklySchedule": {
+        "monday": [
+          "12:00-18:00"
+        ],
+        "wednesday": [
+          "09:00-15:00"
+        ],
+        "saturday": [
+          "11:00-17:00"
+        ]
+      }
+    },
+    "rating": 4.8,
+    "fees": {
+      "60min": 175,
+      "30min": 105
+    },
+    "numReviews": 41,
+    "specializations": {
+      "primary": "Rheumatology",
+      "subspecialties": [
+        "Autoimmune Diseases",
+        "Arthritis Management"
+      ],
+      "conditions": [
+        "Rheumatoid Arthritis",
+        "Lupus",
+        "Fibromyalgia",
+        "Osteoarthritis"
+      ]
+    },
+    "certifications": [
+      "Egyptian Society of Rheumatology",
+      "American College of Rheumatology Member"
+    ],
+    "gender": "Female",
+    "location": {
+      "country": "Egypt",
+      "city": "Cairo",
+      "timezone": "Africa/Cairo"
+    },
+    "languages": [
+      "English",
+      "Arabic"
+    ],
+    "isOnline": true,
+    "imageUrl": "/images/doctors/dr-mostafa.jpg",
+    "about": "Dr. Mostafa specializes in autoimmune diseases and arthritis management. She is committed to helping patients manage chronic conditions and improve their quality of life."
+  }
+]
