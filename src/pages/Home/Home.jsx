@@ -1,6 +1,7 @@
 import Banner from "../../Components/Banner/Banner";
 import ChooseUs from "../../Components/chooseUs/chooseUs";
 import Features from "../../Components/features/features";
+import HealthNetwork from "../../Components/healthNetwork/HealthNetwork";
 import Services from "../../Components/services/services";
 import Testimonials from "../../Components/testimonials/Testimonials";
 import WhyChoose from "../../Components/whyChoose/WhyChoose";
@@ -25,6 +26,9 @@ const Home = () => {
       </section>
       <section>
         <WhyChoose />
+      </section>
+      <section>
+        <HealthNetwork />
       </section>
     </div>
   );

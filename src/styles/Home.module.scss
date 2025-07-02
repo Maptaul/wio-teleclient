@@ -1,6 +1,5 @@
 @use "/src/styles/var" as *;
 
-
 .banner {
   padding-top: 170px;
   padding-bottom: 100px;
@@ -11,7 +10,7 @@
   background-attachment: fixed;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
@@ -20,11 +19,11 @@
     background: linear-gradient(89deg, black, transparent);
   }
 
-  @media(max-width:$md) {
+  @media (max-width: $md) {
     padding-top: 130px;
   }
 
-  @media(max-width:$sm) {
+  @media (max-width: $sm) {
     padding-bottom: 70px;
   }
 
@@ -38,16 +37,16 @@
 
   .content_wrapper {
     max-width: 70%;
-    
-    @media(max-width: $lg) {
+
+    @media (max-width: $lg) {
       max-width: 80%;
     }
-    
-    @media(max-width: $md) {
+
+    @media (max-width: $md) {
       max-width: 90%;
     }
-    
-    @media(max-width: $sm) {
+
+    @media (max-width: $sm) {
       max-width: 100%;
       padding: 0 10px;
     }
@@ -65,13 +64,12 @@
     margin-bottom: 30px;
     font-weight: 800;
 
-    @media(max-width:$lg) {
+    @media (max-width: $lg) {
       font-size: 44px;
-
     }
   }
 
-   .btns {
+  .btns {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -93,11 +91,11 @@
         left: 75%;
       }
       &:hover {
-    text-decoration: underline;
-  }
+        text-decoration: underline;
+      }
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         right: -10px;
@@ -115,46 +113,41 @@
     }
   }
 
+  .btnTwo {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    white-space: nowrap;
 
+    svg {
+      font-size: 20px;
+      flex-shrink: 0;
+    }
 
-.btnTwo {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 20px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
-  border: none;
-  background: transparent;
-  white-space: nowrap;
+    &:hover {
+      text-decoration: underline;
+    }
 
-  svg {
-    font-size: 20px;
-    flex-shrink: 0;
+    @media (max-width: $sm) {
+      font-size: 16px;
+      padding: 10px 16px;
+    }
   }
-
-  &:hover {
-    text-decoration: underline;
-  }
-
-  @media (max-width: $sm) {
-    font-size: 16px;
-    padding: 10px 16px;
-  }
-}
-
 }
 
 .services {
   padding: 70px 0;
-  background: #F2F3F5;
+  background: #f2f3f5;
 
-  @media(max-width:$md) {
+  @media (max-width: $md) {
     padding: 50px 10px;
-    
-
   }
 
   .container {
@@ -166,8 +159,8 @@
   .head {
     text-align: center;
     padding-bottom: 50px;
-    
-    @media(max-width:$md) {
+
+    @media (max-width: $md) {
       padding-bottom: 30px;
     }
 
@@ -176,7 +169,7 @@
       font-weight: 800;
       margin-bottom: 16px;
 
-      @media(max-width:$md) {
+      @media (max-width: $md) {
         font-size: 28px;
       }
     }
@@ -185,7 +178,7 @@
       font-size: 18px;
       font-weight: 500;
 
-      @media(max-width:$md) {
+      @media (max-width: $md) {
         font-size: 16px;
       }
     }
@@ -200,14 +193,13 @@
     }
     gap: 20px;
 
-
     .col {
       position: relative;
       padding-top: 50px;
       padding-bottom: 30px;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 30px;
         left: 0;
@@ -219,7 +211,7 @@
       }
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         top: 20px;
         left: 20px;
@@ -237,7 +229,7 @@
       z-index: 2;
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         bottom: 0px;
         right: 20px;
@@ -257,10 +249,8 @@
 
     .contentWrap {
       padding: 20px;
-      
 
       .content {
-
         .title {
           display: flex;
           gap: 5px;
@@ -288,8 +278,6 @@
       }
     }
 
-
-
     .image {
       text-align: center;
       position: relative;
@@ -297,7 +285,7 @@
       overflow: hidden;
 
       &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: -20px;
         left: 0;
@@ -320,7 +308,7 @@
   padding: 70px 0;
   background: #fff;
 
-  @media(max-width:$md) {
+  @media (max-width: $md) {
     padding: 50px 10px;
   }
 
@@ -334,7 +322,7 @@
     text-align: center;
     padding-bottom: 50px;
 
-    @media(max-width:$md) {
+    @media (max-width: $md) {
       padding-bottom: 30px;
     }
 
@@ -348,7 +336,7 @@
       font-weight: 800;
       margin-bottom: 16px;
 
-      @media(max-width:$md) {
+      @media (max-width: $md) {
         font-size: 28px;
       }
     }
@@ -363,9 +351,8 @@
     }
     gap: 20px;
 
-
     .wrapper {
-      background: #F2F3F5;
+      background: #f2f3f5;
       overflow: hidden;
       padding: 20px;
       display: flex;
@@ -373,7 +360,7 @@
       position: relative;
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         bottom: -30px;
         right: 0px;
@@ -417,16 +404,16 @@
 
 .features {
   padding: 100px 0;
-  background: #F8FBFE;
+  background: #f8fbfe;
 
-  @media(max-width:$lg) {
+  @media (max-width: $lg) {
     padding: 70px 0;
   }
 
-  @media(max-width:$md) {
+  @media (max-width: $md) {
     padding: 50px 0;
   }
-  @media(max-width:$sm) {
+  @media (max-width: $sm) {
     padding: 30px 10px;
   }
   .container {
@@ -440,14 +427,14 @@
     padding-bottom: 20px;
   }
   h2 {
-      font-size: 36px;
-      font-weight: 800;
-      margin-bottom: 16px;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 16px;
 
-      @media(max-width:$md) {
-        font-size: 28px;
-      }
+    @media (max-width: $md) {
+      font-size: 28px;
     }
+  }
 
   .row {
     display: grid;
@@ -455,7 +442,7 @@
     gap: 20px;
     align-items: center;
 
-    @media(max-width:$md) {
+    @media (max-width: $md) {
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -466,16 +453,14 @@
         text-align: right;
       }
 
-      @media(max-width:$md) {
+      @media (max-width: $md) {
         flex-direction: column-reverse;
         margin-top: 50px;
       }
-
     }
 
     .content {
-
-      @media(max-width:$sm) {
+      @media (max-width: $sm) {
         text-align: center;
       }
 
@@ -503,7 +488,7 @@
         padding-left: 18px;
         list-style: circle;
 
-        @media(max-width:$md) {
+        @media (max-width: $md) {
           list-style: none;
         }
 
@@ -514,7 +499,6 @@
     }
 
     .image {
-
       img {
         width: 100%;
         max-width: 380px;
@@ -524,18 +508,22 @@
   }
 }
 
-
 .healthNetwork {
   padding: 100px 0;
-  background: #F8FBFE;
+  background: #f8fbfe;
 
-  @media(max-width:$md) {
+  @media (max-width: $md) {
     padding: 50px 0;
     margin-top: 50px;
   }
 
+  @media (max-width: $sm) {
+    padding: 30px 10px;
+  }
   .container {
-    margin-bottom: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .row {
@@ -544,73 +532,80 @@
     gap: 20px;
     align-items: center;
 
-    @media(max-width:$lg) {
+    @media (max-width: $lg) {
       display: flex;
       flex-direction: column;
       text-align: center;
     }
 
     .content {
-
-      @media(max-width:$sm) {
+      @media (max-width: $sm) {
         text-align: center;
       }
 
       h2 {
+        font-size: 40px;
+        color: black;
         margin-bottom: 30px;
+        font-weight: 800;
 
-        span {
-          display: block;
-          font-size: 16px;
-          color: $primary;
-          text-transform: uppercase;
-          font-weight: 700;
-          padding-bottom: 10px;
+        @media (max-width: $lg) {
+          font-size: 44px;
         }
       }
 
-      p {
-        font-size: 18px;
-        margin-bottom: 30px;
-      }
-
-      .btn {
-        padding: 10px 15px;
-        padding-right: 40px;
-        font-size: 18px;
-        font-weight: 700;
-        color: #fff;
-        background: $primary;
-        position: relative;
+      .span {
+        display: block;
+        font-size: 16px;
+        color: $primary;
         text-transform: uppercase;
-
-        svg {
-          position: absolute;
-          top: 50%;
-          transform: translate(20px, -50%);
-          z-index: 1;
-        }
-
-        &::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          right: -10px;
-          width: 40px;
-          height: 100%;
-          background: #252424;
-          transform: skew(341deg, 0deg);
-        }
+        font-weight: 700;
+        padding-bottom: 10px;
       }
-
     }
 
-    .image {
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
 
-      img {
-        width: 100%;
-        max-width: 480px;
+    .btn {
+      padding: 10px 15px;
+      padding-right: 40px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      background: $primary;
+      position: relative;
+
+      svg {
+        position: absolute;
+        top: 50%;
+        transform: translate(20px, -50%);
+        z-index: 1;
+        left: 75%;
       }
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -10px;
+        width: 40px;
+        height: 100%;
+        background: #252424;
+        transform: skew(341deg, 0deg);
+      }
+    }
+  }
+
+  .image {
+    img {
+      width: 100%;
+      max-width: 480px;
     }
   }
 }
