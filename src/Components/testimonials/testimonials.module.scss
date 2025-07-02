@@ -1,0 +1,209 @@
+@use "/src/styles/var" as *;
+
+.testimonials {
+    background-color: #F2F3F5;
+    padding: 70px 0;
+
+    @media (max-width: $md) {
+        padding: 50px 0;
+    }
+    @media(max-width:$sm) {
+    padding: 30px 10px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+    :global {
+        .swiper {
+            .swiper-wrapper {
+                height: 280px !important;
+
+                @media (max-width: $sm) {
+                    height: auto !important;
+
+                }
+
+                .swiper-slide {
+                    padding-right: 50px;
+
+                    @media (max-width: $sm) {
+                        padding-right: 10px;
+                    }
+                }
+
+                .swiper-slide-active>div {
+                    &::after {
+                        right: -40px;
+                        width: 50px;
+
+                        @media (max-width: $sm) {
+                            right: -20px;
+                            width: 30px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .heading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    h2 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 16px;
+
+      @media(max-width:$md) {
+        font-size: 28px;
+      }
+    }
+
+    .swipWrap {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        gap: 30px;
+
+        @media (max-width: $sm) {
+            grid-template-columns: 1fr;
+        }
+
+        .nameList {
+            @media (max-width: $sm) {
+                width: 100%;
+                max-width: 400px;
+            }
+
+            @media (max-width: 450px) {
+                max-width: 350px;
+            }
+
+            @media (max-width: 380px) {
+                max-width: 300px;
+            }
+        }
+    }
+
+    .namesColumn {
+        width: 100%;
+
+        @media (min-width: 768px) {
+            width: 50%;
+        }
+    }
+
+    .swiper {
+        height: 100%;
+    }
+
+    .nameCard {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background-color: white;
+        padding: 15px;
+        padding-right: 30px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        position: relative;
+
+        @media (max-width: $sm) {
+            gap: 10px;
+            padding: 10px;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            right: -4px;
+            width: 8px;
+            height: 100%;
+            background: $primary;
+            transform: skew(6deg, 0deg);
+        }
+
+        h4 {
+            font-size: 16px;
+            margin: 0;
+            font-weight: 700;
+
+            @media (max-width: $sm) {
+                font-size: 14px;
+            }
+        }
+    }
+
+
+    .avatar {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        object-fit: cover;
+
+        @media (max-width: $sm) {
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+    .name {
+        font-weight: 600;
+    }
+
+    .testimonialContent {
+        background: #fff;
+        padding: 30px;
+    }
+
+    .stars {
+        color: #f15a24;
+        margin-bottom: 1rem;
+    }
+
+    .content {
+        color: #555;
+        margin-bottom: 1.5rem;
+    }
+
+    .author {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            border-radius: 100%;
+
+            @media (max-width: $sm) {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        div {
+            h5 {
+                font-size: 16px;
+                font-weight: 700;
+                margin: 0;
+            }
+
+            p {
+                font-size: 14px;
+                color: #7e868c;
+                font-weight: 600;
+                margin: 0;
+
+            }
+        }
+    }
+}

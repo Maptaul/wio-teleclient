@@ -1,0 +1,66 @@
+[
+        {
+                "id": 1,
+                "name": "Jane Oliver",
+                "occupation": "Retired Teacher",
+                "image": "/src/assets/jane-oliver.webp",
+                "content": "I am very happy with Wio Care service. Before, I forget my medicine many time, but now I get reminder and take on time. Also, doctor appointment is very easy to book. This help me lot in my daily life. Thank you",
+                "stars": 5
+        },
+        {
+                "id": 2,
+                "name": "James Winston",
+                "occupation": "Software Engineer",
+                "image": "/src/assets/james.webp",
+                "content": "Good platform for health tracking. I like how my medical history is all in one place, no need to carry paper everywhere. Sometimes app take little time to load, but overall very helpful. Recommend to others.",
+                "stars": 5
+        },
+        {
+                "id": 3,
+                "name": "Emily Watson",
+                "occupation": "Fitness Trainer",
+                "image": "/src/assets/Emily Watson.webp",
+                "content": "Amazing service and user-friendly app. Wio Care really changed how I manage my health appointments. Highly recommend!",
+                "stars": 5
+        },
+        {
+                "id": 4,
+                "name": "Tina Oliver",
+                "occupation": "Accountant",
+                "image": "/src/assets/Tina Oliver.webp",
+                "content": "With Wio Care, I never miss my medications or checkups. Simple and effective.",
+                "stars": 5
+        },
+        {
+                "id": 5,
+                "name": "Jennifer Dunn",
+                "occupation": "Nurse",
+                "image": "/src/assets/Jennifer Dunn.webp",
+                "content": "As a healthcare professional, I appreciate how Wio Care simplifies patient care coordination. It's become essential for managing my own health too.",
+                "stars": 5
+        },
+        {
+                "id": 6,
+                "name": "George Weah",
+                "occupation": "Small Business Owner",
+                "image": "/src/assets/George Weah.webp",
+                "content": "Running my own business leaves little time for health management. Wio Care's automated reminders and easy scheduling save me hours every week.",
+                "stars": 4
+        },
+        {
+                "id": 7,
+                "name": "Dan James",
+                "occupation": "College Student",
+                "image": "/src/assets/Dan James.webp",
+                "content": "Perfect for busy students! I can book telehealth appointments between classes and get reminders for my allergy meds. The interface is so intuitive.",
+                "stars": 5
+        },
+        {
+                "id": 8,
+                "name": "Emma Tan",
+                "occupation": "Designer",
+                "image": "/src/assets/m-avatar.jpg",
+                "content": "Never thought I'd use a health app, but Wio Care makes it simple. The medication tracker helps me stay consistent even with my irregular work schedule.",
+                "stars": 5
+        }
+]

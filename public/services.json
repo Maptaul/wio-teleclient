@@ -1,0 +1,164 @@
+[
+        {
+                "title": "Medical Data Storage",
+                "image": "/src/assets/s1.jpg",
+                "features": [
+                        {
+                                "heading": "Secure Storage",
+                                "description": "Store all your medical records safely in one place. Your health data remains protected and private."
+                        },
+                        {
+                                "heading": "Easy Access",
+                                "description": "Retrieve your medical history whenever you need it. No more searching through papers or lost files."
+                        },
+                        {
+                                "heading": "No Lost Files",
+                                "description": "Keep everything organized in digital form. Say goodbye to missing reports and misplaced documents."
+                        }
+                ]
+        },
+        {
+                "title": "AI Medical Data Analysis",
+                "image": "/src/assets/s2.jpg",
+                "features": [
+                        {
+                                "heading": "Smart Analysis",
+                                "description": "AI processes your medical data for accurate insights. Understand your health better with advanced analytics."
+                        },
+                        {
+                                "heading": "Early Detection",
+                                "description": "Spot potential health risks before they become serious. AI helps in identifying patterns and warning signs."
+                        },
+                        {
+                                "heading": "Accurate Reports",
+                                "description": "Get precise, AI-powered health reports instantly. Improve decision-making with data-driven results."
+                        }
+                ]
+        },
+        {
+                "title": "Summarize Medical History",
+                "image": "/src/assets/s3.jpg",
+                "features": [
+                        {
+                                "heading": "Quick Summary",
+                                "description": "View a concise report of your medical history. No need to go through long and complex records."
+                        },
+                        {
+                                "heading": "Save Time",
+                                "description": "Get key health details in a simple format. Make medical visits more efficient with a summarized report."
+                        },
+                        {
+                                "heading": "Better Understanding",
+                                "description": "Easily track past diagnoses and treatments. Stay informed about your health journey."
+                        }
+                ]
+        },
+        {
+                "title": "Continues Synchronized Health Data",
+                "image": "/src/assets/s4.jpg",
+                "features": [
+                        {
+                                "heading": "Real-Time Sync",
+                                "description": "Your health data updates across all devices instantly. Stay connected without manual updates."
+                        },
+                        {
+                                "heading": "Multiple Devices",
+                                "description": "Access your records on a phone, tablet, or PC. Always have your medical information at your fingertips."
+                        },
+                        {
+                                "heading": "Effortless Tracking",
+                                "description": "Keep a continuous log of your health metrics. Monitor progress without any extra effort."
+                        }
+                ]
+        },
+        {
+                "title": "Safe from Misdiagnosed",
+                "image": "/src/assets/s5.jpg",
+                "features": [
+                        {
+                                "heading": "Accurate Diagnosis",
+                                "description": "Reduce errors with AI-powered medical reviews. Ensure doctors have the right information for treatment."
+                        },
+                        {
+                                "heading": "Reduce Errors",
+                                "description": "Minimize human errors and improve reliability with smart AI suggestions and insights."
+                        },
+                        {
+                                "heading": "Better Treatment",
+                                "description": "Get the right medical attention based on verified data. Improve health outcomes with precise assessments."
+                        }
+                ]
+        },
+        {
+                "title": "Safe from Unwanted Dose",
+                "image": "/src/assets/s6.jpg",
+                "features": [
+                        {
+                                "heading": "Correct Medication",
+                                "description": "AI ensures you get the right medicines and doses. Avoid taking the wrong or excessive medications."
+                        },
+                        {
+                                "heading": "Avoid Overdose",
+                                "description": "Get alerts for potentially harmful combinations. AI helps prevent medication errors before they happen."
+                        },
+                        {
+                                "heading": "Stay Protected",
+                                "description": "Your prescriptions are checked for safety and accuracy. Enjoy worry-free treatment with advanced monitoring."
+                        }
+                ]
+        },
+        {
+                "title": "Medicine Reminder",
+                "image": "/src/assets/s7.jpg",
+                "features": [
+                        {
+                                "heading": "Timely Alerts",
+                                "description": "Never forget to take your medicine on time. Get notifications based on your schedule."
+                        },
+                        {
+                                "heading": "Easy Scheduling",
+                                "description": "Set up reminders for all your prescriptions. Customize alerts to match your daily routine."
+                        },
+                        {
+                                "heading": "Better Health",
+                                "description": "Maintain consistency in your medication plan. Avoid health risks by taking medicines as prescribed."
+                        }
+                ]
+        },
+        {
+                "title": "Doctor Appointment",
+                "image": "/src/assets/s8.jpg",
+                "features": [
+                        {
+                                "heading": "Easy Booking",
+                                "description": "Schedule doctor visits quickly with just a few clicks. No more long calls or waiting in line."
+                        },
+                        {
+                                "heading": "Manage Appointments",
+                                "description": "Track upcoming checkups and reschedule easily. Stay organized with automated reminders."
+                        },
+                        {
+                                "heading": "No Missed Visits",
+                                "description": "Receive notifications before your appointment. Never miss an important medical consultation."
+                        }
+                ]
+        },
+        {
+                "title": "Online Doctor Suggestion",
+                "image": "/src/assets/s9.jpg",
+                "features": [
+                        {
+                                "heading": "Personalized Choices",
+                                "description": "Get AI-based doctor recommendations. Find the best specialist for your specific health needs."
+                        },
+                        {
+                                "heading": "Verified Experts",
+                                "description": "Choose from a list of trusted and qualified doctors. Access reliable medical advice anytime."
+                        },
+                        {
+                                "heading": "Convenient Access",
+                                "description": "Find the right doctor without leaving home. Consult professionals online from anywhere."
+                        }
+                ]
+        }
+]

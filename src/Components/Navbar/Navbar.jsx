@@ -61,7 +61,7 @@ const Navbar = () => {
                     window.location.pathname === "/doctors" ? "active" : ""
                   }`}
                 >
-                  Doctor List
+                  Doctors
                 </Link>
               </li>
               <li className="navItem">

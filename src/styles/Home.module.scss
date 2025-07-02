@@ -152,22 +152,52 @@
   background: #F2F3F5;
 
   @media(max-width:$md) {
-    padding: 50px 0;
+    padding: 50px 10px;
+    
 
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .head {
     text-align: center;
     padding-bottom: 50px;
-
+    
     @media(max-width:$md) {
       padding-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 16px;
+
+      @media(max-width:$md) {
+        font-size: 28px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: 500;
+
+      @media(max-width:$md) {
+        font-size: 16px;
+      }
     }
   }
 
   .row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    @media (min-width: $lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
     gap: 20px;
 
 
@@ -227,6 +257,7 @@
 
     .contentWrap {
       padding: 20px;
+      
 
       .content {
 
@@ -290,7 +321,13 @@
   background: #fff;
 
   @media(max-width:$md) {
-    padding: 50px 0;
+    padding: 50px 10px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .head {
@@ -306,12 +343,25 @@
       text-transform: uppercase;
       font-weight: 700;
     }
+    h2 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 16px;
+
+      @media(max-width:$md) {
+        font-size: 28px;
+      }
+    }
   }
 
   .row {
     display: grid;
-    gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    @media (min-width: $lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    gap: 20px;
 
 
     .wrapper {
@@ -358,6 +408,7 @@
 
         p {
           line-height: 26px;
+          text-align: justify;
         }
       }
     }
@@ -375,11 +426,28 @@
   @media(max-width:$md) {
     padding: 50px 0;
   }
+  @media(max-width:$sm) {
+    padding: 30px 10px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
 
   .head {
     text-align: center;
     padding-bottom: 20px;
   }
+  h2 {
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 16px;
+
+      @media(max-width:$md) {
+        font-size: 28px;
+      }
+    }
 
   .row {
     display: grid;

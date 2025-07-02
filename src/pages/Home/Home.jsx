@@ -1,22 +1,30 @@
 import Banner from "../../Components/Banner/Banner";
-import Connection from "../../Components/Connection/Connection";
-import HowItWorks from "../../Components/HowItWorksComp/HowItWorks";
-import ReadyTherapist from "../doctors/ReadyTherapist";
+import ChooseUs from "../../Components/chooseUs/chooseUs";
+import Features from "../../Components/features/features";
+import Services from "../../Components/services/services";
+import Testimonials from "../../Components/testimonials/Testimonials";
+import WhyChoose from "../../Components/whyChoose/WhyChoose";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <section>
         <Banner />
       </section>
       <section>
-        <Connection />
-      </section>
-      <section className="max-w-full md:max-w-[90%] mx-auto">
-        <ReadyTherapist />
+        <Services />
       </section>
       <section>
-        <HowItWorks />
+        <ChooseUs />
+      </section>
+      <section>
+        <Features />
+      </section>
+      <section>
+        <Testimonials />
+      </section>
+      <section>
+        <WhyChoose />
       </section>
     </div>
   );

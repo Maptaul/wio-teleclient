@@ -1,0 +1,26 @@
+[
+        {
+                "title": "Medical Data Storage",
+                "description": "Upload and store patient prescriptions safely. We accept PDFs, photos, and text files. Our system checks each prescription to make sure all details are correct."
+        },
+        {
+                "title": "Medical Reports",
+                "description": "Keep medical test reports safe and organized. We protect patient privacy with strong security measures. You can sort reports by type, date, or doctor, and track who views them."
+        },
+        {
+                "title": "All File Types",
+                "description": "Upload any type of medical file - PDFs, photos, X-ray images, or text. Our system reads important information from each file while keeping the original safe. We make sure files work across all systems."
+        },
+        {
+                "title": "Secure Cloud Storage",
+                "description": "We store all patient data safely in the cloud with strong protection. We keep backup copies in different locations to make sure you can always access your data when you need it. Our system stays up and running 99.99% of the time."
+        },
+        {
+                "title": "Role-Based Access",
+                "description": "Control who sees what with our easy-to-use permission system. You can set different access levels for different staff members. For example, billing staff can view records while doctors can make changes. You can also give temporary access to outside specialists when needed."
+        },
+        {
+                "title": "Audit Trails",
+                "description": "Keep track of who does what with patient data. Our system records every time someone views or changes information, including who they are and when it happened. You can easily create reports to show you're following privacy laws. We'll also alert you if we notice any unusual activity."
+        }
+]
