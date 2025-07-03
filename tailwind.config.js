@@ -7,6 +7,10 @@ export default {
         darkMode: 'class',
         theme: {
                 extend: {
+                        fontFamily: {
+                                'exo': ['"Exo"', 'sans-serif'],
+                                'sans': ['"Exo"', 'sans-serif'],
+                        },
                         colors: {
                                 primary: {
                                         50: '#f0f9ff',

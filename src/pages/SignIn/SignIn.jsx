@@ -165,7 +165,7 @@ const SignIn = () => {
       <div className="">
         <div className=" backdrop-blur">
           {/* Right Panel */}
-          <div className="bg-gray-50  p-8 flex flex-col justify-center">
+          <div className="bg-gray-50  p-8 flex flex-col justify-center rounded-md">
             <h3 className="text-2xl font-bold mb-6 text-center text-blue-700">
               Welcome to Telemedicine Portal
             </h3>
@@ -291,26 +291,14 @@ const SignIn = () => {
             <p className="text-center text-sm mt-5">
               Don't have an account?{" "}
               <Link
-                to="/signUp"
+                to="/signup"
                 className="text-[#2E9CCA] hover:underline font-semibold"
               >
                 Sign Up
               </Link>
             </p>{" "}
-            <div className="text-center text-xs mt-6 opacity-70">
-              {user && (
-                <div className="flex items-center justify-center gap-2 mb-2">
-                  <img
-                    src={user.photoURL || defaultAvatar}
-                    alt="Profile"
-                    className="w-8 h-8 rounded-full border"
-                  />
-                  <span className="font-medium text-gray-800">
-                    {user.displayName}
-                  </span>
-                </div>
-              )}
-              Innovated by{" "}
+            <div className="text-center text-xs mt-6 opacity-70 flex items-center justify-center">
+              <p>Innovated by</p>
               <a
                 href="https://www.jionex.com/"
                 target="_blank"

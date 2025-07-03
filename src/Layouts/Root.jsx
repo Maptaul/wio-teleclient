@@ -8,7 +8,7 @@ const Root = () => {
   const location = useLocation();
   const noHeaderFooter =
     location.pathname.includes("signin") ||
-    location.pathname.includes("signUp");
+    location.pathname.includes("signup");
 
   const [isLoading, setIsLoading] = useState(true);
 

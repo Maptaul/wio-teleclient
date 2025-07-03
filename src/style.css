@@ -2,8 +2,31 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* Apply Exo font globally */
+* {
+  font-family: "Exo", sans-serif;
+}
+
 body {
   font-family: "Exo", sans-serif;
+}
+
+/* Ensure all text elements use Exo */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+a,
+button,
+input,
+textarea,
+select {
+  font-family: "Exo", sans-serif !important;
 }
 
 /* Custom Scrollbar Styles for WebKit browsers */

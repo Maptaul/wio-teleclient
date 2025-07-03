@@ -466,10 +466,10 @@ const SignUp = () => {
             to="/signin"
             className="text-blue-700 hover:underline font-medium"
           >
-            Login
+            Sign Up
           </Link>
         </p>
-        <div className="text-center mt-6 text-gray-500">
+        <div className="text-center mt-6 text-gray-500 flex items-center justify-center">
           <p>Innovated by</p>
           <a
             href="https://www.jionex.com/"
