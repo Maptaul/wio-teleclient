@@ -1,59 +1,95 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BiPlusMedical } from "react-icons/bi";
-import "./stats.module.scss";
+import styles from "./stats.module.scss";
 
-// Simple counter component to replace OdometerCounter
+// Counter with animation and intersection observer
 const OdometerCounter = ({ value }) => {
   const [count, setCount] = useState(0);
+  const [isVisible, setIsVisible] = useState(false);
+  const counterRef = useRef(null);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      if (count < value) {
-        setCount(count + Math.ceil(value / 100));
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !isVisible) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (counterRef.current) {
+      observer.observe(counterRef.current);
+    }
+
+    return () => {
+      if (counterRef.current) observer.unobserve(counterRef.current);
+      observer.disconnect();
+    };
+  }, [isVisible]);
+
+  useEffect(() => {
+    if (!isVisible) return;
+
+    const duration = 2000;
+    const steps = 60;
+    const increment = value / steps;
+    const stepDuration = duration / steps;
+    let current = 0;
+
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= value) {
+        setCount(value);
+        clearInterval(timer);
+      } else {
+        setCount(Math.floor(current));
       }
-    }, 50);
+    }, stepDuration);
 
-    return () => clearTimeout(timer);
-  }, [count, value]);
+    return () => clearInterval(timer);
+  }, [isVisible, value]);
 
-  return <span>{count > value ? value : count}</span>;
+  return <span ref={counterRef}>{count}</span>;
 };
 
 export default function Stats() {
   return (
-    <>
-      <section className="stats">
-        <div className="container max-w-7xl mx-auto px-4">
-          <div className="wrapper">
-            <div className="stat">
-              <h4>
-                <OdometerCounter value={325} />
-                <span className="fig">K</span> <BiPlusMedical />
-              </h4>
-              <h5>Active Users</h5>
-            </div>
-            <div className="stat">
-              <h4>
-                <OdometerCounter value={640} />
-                <span className="fig">K</span> <BiPlusMedical />
-              </h4>
-              <h5>Total Download</h5>
-            </div>
-            <div className="stat">
-              <h4>
-                <OdometerCounter value={200} /> <BiPlusMedical />
-              </h4>
-              <h5>Health Care Videos</h5>
-            </div>
-            <div className="stat">
-              <h4>
-                <OdometerCounter value={100} /> <BiPlusMedical />
-              </h4>
-              <h5>Diet Menus</h5>
-            </div>
+    <section className={styles.stats}>
+      <div className="container max-w-7xl mx-auto px-4">
+        <div className={styles.wrapper}>
+          <div className={styles.stat}>
+            <h4>
+              <OdometerCounter value={325} />
+              <span className={styles.fig}>K</span>
+              <BiPlusMedical className={styles.plusIcon} />
+            </h4>
+            <h5>Active Users</h5>
+          </div>
+          <div className={styles.stat}>
+            <h4>
+              <OdometerCounter value={640} />
+              <span className={styles.fig}>K</span>
+              <BiPlusMedical className={styles.plusIcon} />
+            </h4>
+            <h5>Total Downloads</h5>
+          </div>
+          <div className={styles.stat}>
+            <h4>
+              <OdometerCounter value={200} />
+              <BiPlusMedical className={styles.plusIcon} />
+            </h4>
+            <h5>Health Care Videos</h5>
+          </div>
+          <div className={styles.stat}>
+            <h4>
+              <OdometerCounter value={100} />
+              <BiPlusMedical className={styles.plusIcon} />
+            </h4>
+            <h5>Diet Menus</h5>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
