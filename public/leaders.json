@@ -1,0 +1,22 @@
+[
+        {
+                "name": "Shaon",
+                "image": "/src/assets/m-shaon.webp",
+                "position": "Head of Brand"
+        },
+        {
+                "name": "Iftekhar Mahmud",
+                "image": "/src/assets/m-iftekhar.webp",
+                "position": "Head of Strategic Marketing"
+        },
+        {
+                "name": "Maptaul Islam Taraq",
+                "image": "/src/assets/m-maptaul.webp",
+                "position": "Senior Software Engineer"
+        },
+        {
+                "name": "Shajidul Nihad",
+                "image": "/src/assets/m-shajidul.webp",
+                "position": "Associate Corporate Officer"
+        }
+]
